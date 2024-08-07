@@ -38,7 +38,7 @@ class arrayKpos
 
 
     //Explanation
-    /* Here first i rotated array for last k positions and then i rotated remaining elements.
+    /* Here first i rotated array for n-1 positions and then k rotated remaining elements.
      * Next I rotated the entire array so that the array will be rotated for k positions
      * 
      * Edge Cases: if k>=n then i made k=k%n
